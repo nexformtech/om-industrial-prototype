@@ -1,0 +1,1080 @@
+/**
+ * Om Industrial Solution, Jaipur - Verified Product Catalog Data
+ * Sourced directly from StockEasy.net and IndiaMART listings
+ */
+
+const CATEGORIES = [
+  "Drum Handling Equipment",
+  "Hydraulics, Pumps & Spares",
+  "Industrial Pallets",
+  "Industrial Trolleys & Barrows",
+  "Material Handling & Cranes",
+  "Pallet Trucks",
+  "Scissor Lifts & Tables",
+  "Stackers & Lifters"
+];
+
+const PRODUCTS_DATA = [
+  {
+    "id": "om-prod-1",
+    "name": "Hand Pallet Trucks",
+    "category": "Pallet Trucks",
+    "price": "\u20b9 9,500 / Piece",
+    "image": "assets/images/products/hand_pallet_trucks.jpg",
+    "highlights": [
+      "Capacity: 2/2.5/3/5 tan",
+      "Application: Industrial",
+      "Material: MS"
+    ],
+    "specs": {
+      "Minimum Order Quantity": "10 Piece",
+      "Usage/Application": "Industrial",
+      "Fork width (mm)": "685/550",
+      "Min Fork Height (mm)": "85",
+      "Max Fork Height (mm)": "200mm",
+      "Power Source": "Manual",
+      "Loading Capacity(Ton)": "3-5 Ton, 5-7 ton",
+      "Color": "Orange and yellow",
+      "Brand": "Om stock easy",
+      "Model No.": "Hhpt 5/3/2.5/2",
+      "AMC/After Sales Service": "1 year service warranty",
+      "Capacity": "2/2.5/3/5 tan",
+      "Chassis Plate Mm": "4/8mm",
+      "Control": "Menual",
+      "Control Lever": "Handel",
+      "Dimensions (MM)": "1150*550*200mm",
+      "Drive Unit": "Handel",
+      "Fork Length(mm)": "1150/1220/1500/1800",
+      "Fork Width(mm)": "550/685/845",
+      "Handle": "Manual",
+      "Is It Customized": "Inorder customise manufacturing",
+      "Lift Drive / Actuation": "Handel manual",
+      "Lift Height Mm": "200mm",
+      "Lifting Capacity Kg": "2/2.5/3/5 tan",
+      "Lifting Speed (laden)": "2 minutes",
+      "Lifting Speed(Unladen)": "30 second",
+      "Load Capacity (Tons)": "5 ton",
+      "Material": "MS",
+      "Max Lifting Height(mm)": "200mm",
+      "Number Of Wheels": "4 Small wheel 2 Big wheel",
+      "Operating Height": "100mm",
+      "Overloading Alarm": "No",
+      "Product Type": "Hand pallet truck",
+      "Pump": "Hydraulic pump",
+      "Steering Wheel": "180*50mm Pu wheel",
+      "Tyre Type": "Pu wheel",
+      "Warranty": "1 year",
+      "Weight (KG)": "85/135 kg",
+      "Wheels": "Pu",
+      "Condition": "NEW",
+      "Sizes 550*1150*200mm": "70kh"
+    },
+    "desc": "Industrial-grade heavy duty Hand Pallet Trucks engineered by Om Industrial Solution, Jaipur with robust frame construction, reliable hydraulics and 1-year service warranty."
+  },
+  {
+    "id": "om-prod-2",
+    "name": "Scissor Hand Pallet Truck",
+    "category": "Scissor Lifts & Tables",
+    "price": "\u20b9 38,500 / Piece",
+    "image": "assets/images/products/scissor_hand_pallet_truck.jpg",
+    "highlights": [
+      "Capacity: 1000 Kg",
+      "Application: Industrial"
+    ],
+    "specs": {
+      "Minimum Order Quantity": "1 Piece",
+      "Type": "Hand Operated",
+      "Capacity": "1000 Kg",
+      "Usage/Application": "Industrial",
+      "Lifting Speed": "70 mm/sec",
+      "Warranty": "6 Months"
+    },
+    "desc": "Industrial-grade heavy duty Scissor Hand Pallet Truck engineered by Om Industrial Solution, Jaipur with robust frame construction, reliable hydraulics and 1-year service warranty."
+  },
+  {
+    "id": "om-prod-3",
+    "name": "Nilkamal Hydraulic Hand Pallet Trucks",
+    "category": "Pallet Trucks",
+    "price": "\u20b9 13,500 / Piece",
+    "image": "assets/images/products/nilkamal_hydraulic_hand_pallet.jpg",
+    "highlights": [
+      "Capacity: 2 Ton Ton",
+      "Capacity: 3000 Kg kg",
+      "Fork Length: 1150 mm"
+    ],
+    "specs": {
+      "Minimum Order Quantity": "1 Piece",
+      "Capacity(T)": "2 Ton",
+      "Type": "Hand Operated",
+      "Capacity(kg)": "3000 Kg",
+      "Usage/Application": "Industrial",
+      "Lifting Speed": "70 mm/sec",
+      "Max Lifting Height": "200 mm",
+      "Fork Length": "1150 mm",
+      "Overall Fork Width": "550 mm",
+      "Min. Fork Height": "80 mm",
+      "Warranty": "12 Months, 6 Months",
+      "Country of Origin": "Made in India"
+    },
+    "desc": "Industrial-grade heavy duty Nilkamal Hydraulic Hand Pallet Trucks engineered by Om Industrial Solution, Jaipur with robust frame construction, reliable hydraulics and 1-year service warranty."
+  },
+  {
+    "id": "om-prod-4",
+    "name": "Hydraulic Hand Pallet Trucks",
+    "category": "Pallet Trucks",
+    "price": "\u20b9 11,499 / Piece",
+    "image": "assets/images/products/hydraulic_hand_pallet_trucks.jpg",
+    "highlights": [
+      "Load Capacity: 3000 kg",
+      "Capacity: 3 Ton Ton",
+      "Capacity: 3000 Kg kg"
+    ],
+    "specs": {
+      "Minimum Order Quantity": "1 Piece",
+      "Load Capacity": "3000 kg",
+      "Capacity(T)": "3 Ton",
+      "Capacity(kg)": "3000 Kg",
+      "Fork Width": "550 mm",
+      "Fork Length": "1150 mm",
+      "Type": "Hand Operated",
+      "Usage/Application": "Material Handling",
+      "Min Fork Height": "85 mm",
+      "Lifting Speed": "70 mm/sec",
+      "Max Fork Height": "200 mm",
+      "Wheel Material": "Nylon",
+      "Max Lifting Height": "200 mm",
+      "Overall Fork Width": "550 mm",
+      "Wheel Type": "Tandem Roller",
+      "Min. Fork Height": "85 mm",
+      "Body Material": "MS",
+      "Steering Wheel Size": "180 mm",
+      "Warranty": "12 Months",
+      "Country of Origin": "Made in India"
+    },
+    "desc": "Hydraulic Hand Pallet Trucksare essential material handling tools designed for lifting and transporting palletized loads with ease and efficiency. These manual pallet trucks are equipped with a hydraulic lifting mechanism, making them an ideal solution for warehouses, factories, and retail environments where moving heavy loads over short distances is required."
+  },
+  {
+    "id": "om-prod-5",
+    "name": "Hydraulic Hand Pallet Trucks Suppliers",
+    "category": "Pallet Trucks",
+    "price": "\u20b9 11,200 / Piece",
+    "image": "assets/images/products/hydraulic_hand_pallet_trucks_s.jpg",
+    "highlights": [
+      "Capacity: 2 Ton Ton"
+    ],
+    "specs": {
+      "Minimum Order Quantity": "1 Piece",
+      "Capacity(T)": "2 Ton"
+    },
+    "desc": "Industrial-grade heavy duty Hydraulic Hand Pallet Trucks Suppliers engineered by Om Industrial Solution, Jaipur with robust frame construction, reliable hydraulics and 1-year service warranty."
+  },
+  {
+    "id": "om-prod-6",
+    "name": "Paper Roll Pallet Truck",
+    "category": "Pallet Trucks",
+    "price": "\u20b9 20,000 / Piece",
+    "image": "assets/images/products/paper_roll_pallet_truck.jpg",
+    "highlights": [
+      "Load Capacity: 3000 kg",
+      "Lifting Capacity: 2500kg",
+      "Fork Length: 1500 mm"
+    ],
+    "specs": {
+      "Minimum Order Quantity": "1 Piece",
+      "Load Capacity": "3000 kg",
+      "Fork Length": "1500 mm",
+      "Loading Capacity": "3000 Kg",
+      "Fork Width": "700 mm",
+      "Power Source": "Hand Operated",
+      "Usage/Application": "Industrial",
+      "Min Fork Height": "90 mm",
+      "Max Fork Height": "200 mm",
+      "Wheel Material": "Nylon",
+      "Product Type": "Paper reel",
+      "Model Name/Number": "Hpt pr1500/1800",
+      "Brand": "Stock Easy",
+      "Wheel Type": "Tandem Roller",
+      "Steering Wheel Size": "180 mm",
+      "Fork Roller Size": "80x70 mm",
+      "Body Material": "MS",
+      "Load Roller Tandem": "965",
+      "AMC/After Sales Service": "1 year service warranty",
+      "Application": "Pepar roll",
+      "Lifting Capacity": "2500kg"
+    },
+    "desc": "we are leading manufaturer of hand operated paper roll pallet truck and other handling equipments like hand pallet truck, manual stacker, hydraulic or platform trolleys and etc."
+  },
+  {
+    "id": "om-prod-7",
+    "name": "Hand Pallet Truck 1800 mm",
+    "category": "Pallet Trucks",
+    "price": "\u20b9 27,500 / Piece",
+    "image": "assets/images/products/hand_pallet_truck_1800_mm.jpg",
+    "highlights": [
+      "Load Capacity: 3000 kg",
+      "Fork Length: 2500 mm, 2000 mm, 2300 mm, 1500 mm, 1800 mm",
+      "Application: Industrial"
+    ],
+    "specs": {
+      "Minimum Order Quantity": "1 Piece",
+      "Fork Length": "2500 mm, 2000 mm, 2300 mm, 1500 mm, 1800 mm",
+      "Load Capacity": "3000 kg",
+      "Fork Width": "550 mm",
+      "Power Source": "Hand Operated",
+      "Wheel Material": "PU, Nylon, PP",
+      "Usage/Application": "Industrial",
+      "Min Fork Height": "85 mm",
+      "Max Fork Height": "200 mm",
+      "Product Type": "material handling Equipment",
+      "Brand": "om stock easy",
+      "Max Lifting Height": "200 mm",
+      "Lift Drive / Actuation": "Hand",
+      "Wheel Type": "Single Roller",
+      "Steering Wheel Size": "180 mm",
+      "Fork Roller Size": "80x70 mm",
+      "Body Material": "MS",
+      "Model No.": "Hhpt 18/24",
+      "Country of Origin": "Made in India"
+    },
+    "desc": "Industrial-grade heavy duty Hand Pallet Truck 1800 mm engineered by Om Industrial Solution, Jaipur with robust frame construction, reliable hydraulics and 1-year service warranty."
+  },
+  {
+    "id": "om-prod-8",
+    "name": "Weight Scale Pallet Truck",
+    "category": "Pallet Trucks",
+    "price": "\u20b9 12,500 / Number",
+    "image": "assets/images/products/weight_scale_pallet_truck.jpg",
+    "highlights": [
+      "Lifting Capacity: 2 Ton",
+      "Capacity: 3000 Kg kg",
+      "Fork Length: 1200 mm"
+    ],
+    "specs": {
+      "Minimum Order Quantity": "10 Number",
+      "Lifting Capacity": "2 Ton",
+      "Capacity(kg)": "3000 Kg",
+      "Type": "Hand Operated",
+      "Usage/Application": "Industrial",
+      "Lifting Speed": "70 mm/sec",
+      "Max Lifting Height": "100 mm",
+      "Fork Length": "1200 mm",
+      "Overall Fork Width": "550 mm",
+      "Min. Fork Height": "85 mm",
+      "Warranty": "12 Months",
+      "Country of Origin": "Made in India"
+    },
+    "desc": "AWeight Scale Pallet Truckis an advanced, multifunctional material handling tool that combines the capabilities of a standard pallet truck with the added benefit of an integrated weight scale. It is designed for efficiently moving pallets while simultaneously weighing them, making it an essential tool in warehouses, distribution centers, and manufacturing facilities."
+  },
+  {
+    "id": "om-prod-9",
+    "name": "Monkey Hoist Machines",
+    "category": "Material Handling & Cranes",
+    "price": "\u20b9 43,500 / Piece",
+    "image": "assets/images/products/monkey_hoist_machines.jpg",
+    "highlights": [
+      "Capacity: 0-1 ton",
+      "Lifting Height: 45 m"
+    ],
+    "specs": {
+      "Minimum Order Quantity": "1 Piece",
+      "Lifting Height": "45 m",
+      "Product Type": "Multi Function Hoist",
+      "Trolley Option": "Without Trolley",
+      "Capacity": "0-1 ton",
+      "Chain Length": "40m",
+      "Monkey host": "180kg"
+    },
+    "desc": "Industrial-grade heavy duty Monkey Hoist Machines engineered by Om Industrial Solution, Jaipur with robust frame construction, reliable hydraulics and 1-year service warranty."
+  },
+  {
+    "id": "om-prod-10",
+    "name": "Hydraulic Mobile Floor Cranes",
+    "category": "Material Handling & Cranes",
+    "price": "\u20b9 48,000 / Piece",
+    "image": "assets/images/products/hydraulic_mobile_floor_cranes.jpg",
+    "highlights": [
+      "Lifting Capacity: 5 tan",
+      "Max Height: 0-20 feet",
+      "Power Source: Hydraulic"
+    ],
+    "specs": {
+      "Minimum Order Quantity": "1 Piece",
+      "Brand": "stock easy",
+      "Crane Type": "Hydra Crane",
+      "Power Source": "Hydraulic",
+      "Color": "Yellow",
+      "Capacity(Tons)": "5-10 ton",
+      "Max Height": "0-20 feet",
+      "Environment": "Indoor",
+      "Automation": "Required",
+      "Highest Hook Height": "20",
+      "Is It Portable": "Portable",
+      "Electrical System": "yes",
+      "Hydraulic System": "yes",
+      "Safety System": "yes",
+      "Warranty": "12 month",
+      "Lifting Capacity": "5 tan",
+      "I Deal In": "New and Second Hand",
+      "Country of Origin": "Made in India"
+    },
+    "desc": "Industrial-grade heavy duty Hydraulic Mobile Floor Cranes engineered by Om Industrial Solution, Jaipur with robust frame construction, reliable hydraulics and 1-year service warranty."
+  },
+  {
+    "id": "om-prod-11",
+    "name": "Electric Pallet Trucks",
+    "category": "Pallet Trucks",
+    "price": "\u20b9 65,000 / Piece",
+    "image": "assets/images/products/electric_pallet_trucks.jpg",
+    "highlights": [
+      "Capacity: 3000 Kg kg",
+      "Fork Length: 1200 mm",
+      "Application: Industrial"
+    ],
+    "specs": {
+      "Minimum Order Quantity": "10 Piece",
+      "Capacity(in kg)": "2500 kg",
+      "Capacity(kg)": "3000 Kg",
+      "Type": "Hand Operated",
+      "Usage/Application": "Industrial",
+      "Lifting Speed": "100 mm/sec",
+      "Max Lifting Height": "110 mm",
+      "Fork Length": "1200 mm",
+      "Overall Fork Width": "550 mm",
+      "Min. Fork Height": "80 mm",
+      "Warranty": "12 Months",
+      "Country of Origin": "Made in India"
+    },
+    "desc": "We \u201cOm Industrial Solution\u201d are the leading manufacturer and trader of a commendable and premium quality array of Hand Truck Pallet, Hydraulic Power Pack Machine, Nylon Load Wheel, Filter Regulator, H Type Shackle, etc."
+  },
+  {
+    "id": "om-prod-12",
+    "name": "Wheel Barrow Trolley",
+    "category": "Industrial Trolleys & Barrows",
+    "price": "\u20b9 3,500 / Piece",
+    "image": "assets/images/products/wheel_barrow_trolley.jpg",
+    "highlights": [
+      "Capacity: 150 kg",
+      "Application: Industrial"
+    ],
+    "specs": {
+      "Minimum Order Quantity": "1 Piece",
+      "Capacity": "150 kg",
+      "Loading Capacity(kg)": "150 kg",
+      "Type": "manual",
+      "Usage/Application": "Industrial",
+      "Color": "yellow",
+      "Number Of Wheel": "2"
+    },
+    "desc": "Industrial-grade heavy duty Wheel Barrow Trolley engineered by Om Industrial Solution, Jaipur with robust frame construction, reliable hydraulics and 1-year service warranty."
+  },
+  {
+    "id": "om-prod-13",
+    "name": "Manual Stacker",
+    "category": "Stackers & Lifters",
+    "price": "\u20b9 14,500 / Piece",
+    "image": "assets/images/products/manual_stacker.jpg",
+    "highlights": [
+      "Lifting Capacity: 1000 kg"
+    ],
+    "specs": {
+      "Minimum Order Quantity": "1 Piece",
+      "Lifting Capacity": "1000 kg"
+    },
+    "desc": "https://youtube.com/shorts/lLwWthripd4?si=FHf4Z90A3Ipm1eQZ."
+  },
+  {
+    "id": "om-prod-14",
+    "name": "Hydraulic Hand Stacker",
+    "category": "Stackers & Lifters",
+    "price": "\u20b9 35,999 / Piece",
+    "image": "assets/images/products/hydraulic_hand_stacker.jpg",
+    "highlights": [
+      "Load Capacity: 1500 kg",
+      "Lifting Capacity: 1 Ton",
+      "Fork Length: 1150 mm"
+    ],
+    "specs": {
+      "Minimum Order Quantity": "1 Piece",
+      "Load Capacity": "1500 kg",
+      "Lifting Capacity": "1 Ton",
+      "Lift Height": "1600 mm",
+      "Lift Operation": "Foot + Hand",
+      "Fork Length": "1150 mm",
+      "Fork Width": "685 mm",
+      "Type": "Fork Stacker",
+      "Power Source": "Manual",
+      "Lifting Height": "2 meter",
+      "Usage/Application": "Goods Lifting",
+      "Country of Origin": "Made in India",
+      "OM stock easy": "Sitapur Jaipur"
+    },
+    "desc": "Industrial-grade heavy duty Hydraulic Hand Stacker engineered by Om Industrial Solution, Jaipur with robust frame construction, reliable hydraulics and 1-year service warranty."
+  },
+  {
+    "id": "om-prod-15",
+    "name": "Semi Electric Stacker",
+    "category": "Stackers & Lifters",
+    "price": "\u20b9 1,20,000 / Unit",
+    "image": "assets/images/products/semi_electric_stacker.jpg",
+    "highlights": [
+      "Capacity: 0-1 Ton, 1.5-2 Ton, 1-1.5 Ton",
+      "Fork Length: 900mm,1150mm,900mm, 1150mm, 900mm",
+      "Lifting Height: 3000mm"
+    ],
+    "specs": {
+      "Minimum Order Quantity": "1 Unit",
+      "Usage/Application": "Power Production",
+      "Types": "Bucket Stacker, Longitudinal Stacker, Circular Stacker",
+      "Capacity": "0-1 Ton, 1.5-2 Ton, 1-1.5 Ton",
+      "Fork Length": "900mm,1150mm,900mm, 1150mm, 900mm",
+      "Height": "3miter",
+      "Rated Load": "480kg",
+      "Fork Width": "740mm, 360mm, 360mm,740mm,360mm",
+      "Warranty": "12 months, 6 months,12 months,6 months",
+      "Power Supply": "AC, AC,DC,AC, DC",
+      "Battery": "12 v",
+      "Brand": "stock easy",
+      "Lifting Height": "3000mm",
+      "Battery Charger": "24horse",
+      "Battery Dimension": "480*180*200mm",
+      "Battery Voltage": "12v",
+      "Battery Weight": "25kg",
+      "Drive Type": "manual",
+      "Front Wheel Distance": "80*100",
+      "Item Code": "hs/1030 hs/1016 hd/1530 hs/1516",
+      "Load Center": "500",
+      "Lowering Speed": "controllabel",
+      "Service Brake Type": "6 manth",
+      "Tyre Material": "nylon",
+      "Weight": "460kg",
+      "Passcode Users": "24",
+      "Fork": "1150mm",
+      "Max Lifting Weight": "1500kg",
+      "Resolution": "yes",
+      "Lift motor rating": "yes",
+      "Lowered mass height": "2030mm",
+      "Number of motors": "1",
+      "Type Of Stacker": "semi electric stacker",
+      "Color": "gery",
+      "Material": "foeget mast",
+      "After Sales Service available": "Yes",
+      "Dimension": "1875*810"
+    },
+    "desc": "we offering you reliable selling price and better quality for semi electric Stacker. OMINDUSTRIALSOLUTION"
+  },
+  {
+    "id": "om-prod-16",
+    "name": "Semi Electrical Order Picker",
+    "category": "Stackers & Lifters",
+    "price": "\u20b9 2,00,000 / Piece",
+    "image": "assets/images/products/semi_electrical_order_picker.jpg",
+    "highlights": [
+      "Capacity: 500 kg"
+    ],
+    "specs": {
+      "Minimum Order Quantity": "1 Piece",
+      "Environment": "Indoor, Outdoor",
+      "Lifting Height(m)": "25-30 m, 20-25 m, 0-10 m, 10-15 m",
+      "Input Power": "AC, DC",
+      "Warranty": "6 months",
+      "Brand": "Indian",
+      "Capacity": "500 kg",
+      "Model": "Or 05_30",
+      "Angle of Repose (degree)": "Good quality"
+    },
+    "desc": "Industrial-grade heavy duty Semi Electrical Order Picker engineered by Om Industrial Solution, Jaipur with robust frame construction, reliable hydraulics and 1-year service warranty."
+  },
+  {
+    "id": "om-prod-17",
+    "name": "Drum Lifter Cum Tilter",
+    "category": "Drum Handling Equipment",
+    "price": "\u20b9 4,55,000 / Piece",
+    "image": "assets/images/products/drum_lifter_cum_tilter.jpg",
+    "highlights": [
+      "Lifting Capacity: 350kg",
+      "Fork Length: 710",
+      "Lifting Height: 1500mm"
+    ],
+    "specs": {
+      "Minimum Order Quantity": "1 Piece",
+      "Load capacity": "400 kg",
+      "Lifter type": "Vertical lift",
+      "Lifting Capacity": "350kg",
+      "Usage/Application": "Drum Gripper",
+      "Type": "Manual",
+      "No. of drums": "Single drum",
+      "Warranty": "12 months",
+      "Pump type": "Foot pedal",
+      "Wall Mounted": "moving",
+      "Paint Coated": "red",
+      "Lifting Height": "1500mm",
+      "Year": "2025",
+      "A": "om stock easy",
+      "Self Weight": "100-150 (kg), 250kg350kg",
+      "Drum Material": "Plastic, Stainless Steel",
+      "Features": "lifting and tilter",
+      "Steer Wheel Size": "180*50 4 nos",
+      "Turning Radius": "220",
+      "Fork Length": "710",
+      "Fork Width": "910",
+      "Rated Load": "220",
+      "Country of Origin": "Made in India"
+    },
+    "desc": "AVertical Lift Drum Lifter Cum Tilteris a robust material handling equipment designed for safe lifting, transporting, stacking, and tilting of industrial drums. With a load capacity of400 kgand a lifting height of1500 mm, it is ideal for handling standard210-liter (55-gallon) steel or plastic drumsin warehouses, factories, and processing units."
+  },
+  {
+    "id": "om-prod-18",
+    "name": "Hydraulic Drum Lifter Cum Tilter",
+    "category": "Drum Handling Equipment",
+    "price": "\u20b9 26,000 / Piece",
+    "image": "assets/images/products/hydraulic_drum_lifter_cum_tilt.jpg",
+    "highlights": [
+      "Lifting Height: 500-750 mm",
+      "Application: drum lifter"
+    ],
+    "specs": {
+      "Minimum Order Quantity": "10 Piece",
+      "Usage/Application": "drum lifter",
+      "Type": "Manual",
+      "Lifting Height": "500-750 mm",
+      "Warranty": "6 months",
+      "Self Weight": "100-150 (kg)",
+      "Drum Material": "Stainless Steel",
+      "Country of Origin": "Made in India"
+    },
+    "desc": "AHydraulic Drum Lifter Cum Tilteris a versatile material handling equipment designed to lift, transport, and tilt drums or barrels with ease. It combines the functionalities of both a lifter and a tilter into one machine, making it ideal for industries where liquids, chemicals, oils, or other bulk materials are stored in drums."
+  },
+  {
+    "id": "om-prod-19",
+    "name": "Drum Lifting And Tilting Machine",
+    "category": "Drum Handling Equipment",
+    "price": "\u20b9 35,000 / Unit",
+    "image": "assets/images/products/drum_lifting_and_tilting_machi.jpg",
+    "highlights": [
+      "Application: All type uses"
+    ],
+    "specs": {
+      "Minimum Order Quantity": "1 Unit",
+      "Usage/Application": "All type uses",
+      "Type": "Manual",
+      "Warranty": "12 months",
+      "Brand": "STOCK EASY",
+      "Model Name/Number": "Drum",
+      "Self Weight": "150-200 kg, 200-250 kg, 100-150 kg, 0-50 kg, 50-100 kg"
+    },
+    "desc": "Industrial-grade heavy duty Drum Lifting And Tilting Machine engineered by Om Industrial Solution, Jaipur with robust frame construction, reliable hydraulics and 1-year service warranty."
+  },
+  {
+    "id": "om-prod-20",
+    "name": "Scissor Lift Tables",
+    "category": "Scissor Lifts & Tables",
+    "price": "\u20b9 25,000 / Piece",
+    "image": "assets/images/products/scissor_lift_tables.jpg",
+    "highlights": [
+      "Capacity: 350kg, 800kg, 500kg, 1000kg, 350kg,500kg,800kg,1000kg,350kg",
+      "Application: Material Handling",
+      "Material: Mild Steel"
+    ],
+    "specs": {
+      "Minimum Order Quantity": "1 Piece",
+      "Power Source": "Hydraulic",
+      "Usage/Application": "Material Handling",
+      "Material": "Mild Steel",
+      "Product Type": "Lifting equipment",
+      "Max. Lifting Height": "1300MM",
+      "Capacity": "350kg, 800kg, 500kg, 1000kg, 350kg,500kg,800kg,1000kg,350kg",
+      "Model No.": "HP/S35O",
+      "Color": "Blue, Red,Yellow,Blue,Red, Red, Yellow",
+      "Is It Customized": "Customized",
+      "Table Color": "Green, Red, Red,Yellow,Green,Blue,Any,Red, Yellow, Blue",
+      "Min Lifting Height": "450MM",
+      "Running Mode": "Stationary, Moving, Stationary,Moving,Stationary",
+      "Net Weight": "125KG 180kg",
+      "Minimum Platform Size": "900*510MM 610*1200mm",
+      "Caster Wheel": "4''",
+      "Brand": "Om stock easy",
+      "Condition": "New",
+      "Lift Type": "MANUAL",
+      "Max Lifting Height Metre": "1.5 M",
+      "Platform Area": "900*510MM 610*1200mm",
+      "Max Lifting Height": "1300MM",
+      "Working Height": "1300MM"
+    },
+    "desc": "Industrial-grade heavy duty Scissor Lift Tables engineered by Om Industrial Solution, Jaipur with robust frame construction, reliable hydraulics and 1-year service warranty."
+  },
+  {
+    "id": "om-prod-21",
+    "name": "Scissor Lift Table Trolley",
+    "category": "Scissor Lifts & Tables",
+    "price": "\u20b9 25,000 / Unit",
+    "image": "assets/images/products/scissor_lift_table_trolley.jpg",
+    "highlights": [
+      "Capacity: 350 kg",
+      "Application: Industrial",
+      "Material: Mild Steel"
+    ],
+    "specs": {
+      "Minimum Order Quantity": "2 Unit",
+      "Capacity": "350 kg",
+      "Power Source": "Hydraulic",
+      "Usage/Application": "Industrial",
+      "Running Mode": "Manual",
+      "Material": "Mild Steel",
+      "Product Type": "Lifting equipment",
+      "Brand": "Stock Easy",
+      "Color": "Yellow",
+      "Country of Origin": "Made in India"
+    },
+    "desc": "\"Stock Easy Hydraulic Scissor Lift Table Trolley\", a single man can carry it easly. it can lift 350 kg at a time."
+  },
+  {
+    "id": "om-prod-22",
+    "name": "Platform Trolley With Scooter Wheel",
+    "category": "Industrial Trolleys & Barrows",
+    "price": "\u20b9 12,000 / Number",
+    "image": "assets/images/products/platform_trolley_with_scooter_.jpg",
+    "highlights": [
+      "Load Capacity: 100-200-500-1000-1500kg",
+      "Application: Industrial",
+      "Material: Mild Steel"
+    ],
+    "specs": {
+      "Minimum Order Quantity": "1 Number",
+      "Material": "Mild Steel",
+      "Load Capacity": "100-200-500-1000-1500kg",
+      "Model Name/Number": "Os/pf500",
+      "Usage/Application": "Industrial",
+      "Brand": "Stock easy",
+      "Color": "Blue",
+      "Size/Dimension": "3*4 feet",
+      "Country of Origin": "Made in India",
+      "900*1200mm platform capacity500kg": "Scooter wheel 70 kg"
+    },
+    "desc": "we are leading manufaturer of hydraulic or platform trolleys and etc."
+  },
+  {
+    "id": "om-prod-23",
+    "name": "Hand Trolley",
+    "category": "Industrial Trolleys & Barrows",
+    "price": "\u20b9 10,500 / Piece",
+    "image": "assets/images/products/hand_trolley__________________.jpg",
+    "highlights": [
+      "Load Capacity: 3000kg",
+      "Max Height: 200 mm",
+      "Application: Material Handling"
+    ],
+    "specs": {
+      "Minimum Order Quantity": "1 Piece",
+      "Brand": "stock easy",
+      "Max Height": "200 mm",
+      "Load Capacity": "3000kg",
+      "Wheel": "Rubber",
+      "Material": "Mild Steel",
+      "Usage/Application": "Material Handling",
+      "Cart Size": "550*1150mm",
+      "Color": "orange",
+      "Toe Plate Width": "550\\685mm",
+      "Features": "5years"
+    },
+    "desc": "Industrial-grade heavy duty Hand Trolley engineered by Om Industrial Solution, Jaipur with robust frame construction, reliable hydraulics and 1-year service warranty."
+  },
+  {
+    "id": "om-prod-24",
+    "name": "Blue Plastic Pallet",
+    "category": "Industrial Pallets",
+    "price": "\u20b9 1,588 / Unit",
+    "image": "assets/images/products/blue_plastic_pallet.jpg",
+    "highlights": [
+      "Capacity: 750 kg",
+      "Application: Storage",
+      "Material: Plastic"
+    ],
+    "specs": {
+      "Minimum Order Quantity": "1 Unit",
+      "Pallet size": "1200x1000 mm",
+      "Static Load Capacity": "2000 kg",
+      "Load cap static": "1000 kg",
+      "Pallet type": "Stackable",
+      "Storing Product": "Automobile Parts",
+      "Top Deck Type": "Perforated",
+      "Top deck": "Perforated",
+      "Pallet weight": "12 kg",
+      "Brand": "Stock easy",
+      "Usage/Application": "Storage",
+      "Material": "Plastic",
+      "Color": "Blue",
+      "Usage": "Warehouse",
+      "Capacity": "750 kg",
+      "Entry Type": "4 way plastic pallet"
+    },
+    "desc": "Industrial-grade heavy duty Blue Plastic Pallet engineered by Om Industrial Solution, Jaipur with robust frame construction, reliable hydraulics and 1-year service warranty."
+  },
+  {
+    "id": "om-prod-25",
+    "name": "Medium Duty Plastic Pallets",
+    "category": "Industrial Pallets",
+    "price": "\u20b9 3,000 / Piece",
+    "image": "assets/images/products/medium_duty_plastic_pallets.jpg",
+    "highlights": [
+      "Capacity: 1200KG",
+      "Application: Industrial",
+      "Material: Plastic"
+    ],
+    "specs": {
+      "Minimum Order Quantity": "1 Piece",
+      "Brand": "stock easy",
+      "Usage/Application": "Industrial",
+      "Color": "Blue",
+      "Material": "Plastic",
+      "Capacity": "1200KG",
+      "Entry Type": "4-way 2-way",
+      "Storing Product": "Automobile Parts",
+      "Features": "medium duty pallets",
+      "Shape": "Square",
+      "Size": "1100*900*135MM"
+    },
+    "desc": "Industrial-grade heavy duty Medium Duty Plastic Pallets engineered by Om Industrial Solution, Jaipur with robust frame construction, reliable hydraulics and 1-year service warranty."
+  },
+  {
+    "id": "om-prod-26",
+    "name": "NASTABLE Medium Duty Plastic Pallets",
+    "category": "Industrial Pallets",
+    "price": "\u20b9 2,900 / Piece",
+    "image": "assets/images/products/nastable_medium_duty_plastic_p.jpg",
+    "highlights": [
+      "Capacity: 1200KG",
+      "Application: Industrial",
+      "Material: Plastic"
+    ],
+    "specs": {
+      "Minimum Order Quantity": "1 Piece",
+      "Brand": "stock easy",
+      "Usage/Application": "Industrial",
+      "Color": "Blue",
+      "Material": "Plastic",
+      "Capacity": "1200KG",
+      "Entry Type": "4-way 2-way",
+      "Storing Product": "Automobile Parts",
+      "Features": "medium duty pallets",
+      "Shape": "Square",
+      "Size": "1200*900*135MM",
+      "Static Load": "1200kg",
+      "Weight": "4.20KG",
+      "Model Name/Number": "OP039",
+      "Pallet Top Type": "perforated",
+      "Surface Type": "perforated",
+      "Runner Type": "9 LEG",
+      "Country of Origin": "Made in India"
+    },
+    "desc": "Industrial-grade heavy duty NASTABLE Medium Duty Plastic Pallets engineered by Om Industrial Solution, Jaipur with robust frame construction, reliable hydraulics and 1-year service warranty."
+  },
+  {
+    "id": "om-prod-27",
+    "name": "blue medium duty plastic pallets",
+    "category": "Industrial Pallets",
+    "price": "\u20b9 2,610 / Piece",
+    "image": "assets/images/products/blue_medium_duty_plastic_palle.jpg",
+    "highlights": [
+      "Capacity: 1000kg",
+      "Application: Industrial",
+      "Material: Plastic"
+    ],
+    "specs": {
+      "Minimum Order Quantity": "1 Piece",
+      "Brand": "stock easy",
+      "Usage/Application": "Industrial",
+      "Color": "Blue",
+      "Material": "Plastic",
+      "Capacity": "1000kg",
+      "Entry Type": "9 leg",
+      "Storing Product": "Automobile Parts",
+      "Features": "medium duty pallets",
+      "Shape": "Square",
+      "Size": "1200*1000*80",
+      "Static Load": "1000kg",
+      "Weight": "8.45 kg",
+      "Model Name/Number": "OP015",
+      "Number Of Pallets": "OP015",
+      "Surface Type": "PLAIN",
+      "Runner Type": "9 LEG",
+      "Pallet Dimensions (Mm) Lwh": "1100*1000*80MM"
+    },
+    "desc": "Industrial-grade heavy duty blue medium duty plastic pallets engineered by Om Industrial Solution, Jaipur with robust frame construction, reliable hydraulics and 1-year service warranty."
+  },
+  {
+    "id": "om-prod-28",
+    "name": "Export Plastic Pallet",
+    "category": "Industrial Pallets",
+    "price": "\u20b9 3,050 / Number",
+    "image": "assets/images/products/export_plastic_pallet.jpg",
+    "highlights": [
+      "Capacity: 2500kg",
+      "Application: Industrial",
+      "Material: Plastic"
+    ],
+    "specs": {
+      "Brand": "stock easy",
+      "Usage/Application": "Industrial",
+      "Color": "Black",
+      "Material": "Plastic",
+      "Capacity": "2500kg",
+      "Entry Type": "2-way 4-way",
+      "Storing Product": "Automobile Parts",
+      "Features": "heavy duty pallets",
+      "Shape": "Square",
+      "Size": "1200*1200*170 mm",
+      "Static Load": "4000kg",
+      "Weight": "27.40kg",
+      "Model Name/Number": "OP031B",
+      "Surface Type": "PLAIN",
+      "Runner Type": "3 runner"
+    },
+    "desc": "Industrial-grade heavy duty Export Plastic Pallet engineered by Om Industrial Solution, Jaipur with robust frame construction, reliable hydraulics and 1-year service warranty."
+  },
+  {
+    "id": "om-prod-29",
+    "name": "stacker pump",
+    "category": "Hydraulics, Pumps & Spares",
+    "price": "\u20b9 16,000 / Piece",
+    "image": "assets/images/products/stacker___pump________________.jpg",
+    "highlights": [
+      "Lifting Capacity: 3000kg",
+      "Application: Industrial",
+      "Material: Mild Steel"
+    ],
+    "specs": {
+      "Minimum Order Quantity": "1 Piece",
+      "Type": "Counter Balance Stacker",
+      "Usage/Application": "Industrial",
+      "Rated Load": "3000kg",
+      "Lifting Capacity": "3000kg",
+      "Material": "Mild Steel",
+      "Brand": "stock easy"
+    },
+    "desc": "Industrial-grade heavy duty stacker pump engineered by Om Industrial Solution, Jaipur with robust frame construction, reliable hydraulics and 1-year service warranty."
+  },
+  {
+    "id": "om-prod-30",
+    "name": "White 180x50 Mm Nylon Wheel",
+    "category": "Hydraulics, Pumps & Spares",
+    "price": "\u20b9 320 / Piece",
+    "image": "assets/images/products/white_180x50_mm_nylon_wheel.jpg",
+    "highlights": [
+      "Capacity: 1200 kg",
+      "Load Capacity: >1000kg",
+      "Application: Handling Equipments"
+    ],
+    "specs": {
+      "Minimum Order Quantity": "1 Piece",
+      "Wheel Size (inch)": "8X2.5",
+      "Load Capacity": ">1000kg",
+      "Material": "Nylon",
+      "Brand": "Stock Easy",
+      "Usage/Application": "Handling Equipments",
+      "Color": "White",
+      "Size": "180x50 mm",
+      "Purpose": "Heavy Industry, Furniture",
+      "Available Shape": "Round",
+      "Diameter": "180 mm",
+      "Capacity": "1200 kg",
+      "Country of Origin": "Made in India"
+    },
+    "desc": "We are dealing in nylon wheel and other material wheels.Aslo we are manufacturer of handling equipments and service provider."
+  },
+  {
+    "id": "om-prod-31",
+    "name": "Heavy Duty Nylon Wheel",
+    "category": "Hydraulics, Pumps & Spares",
+    "price": "\u20b9 100 / Piece",
+    "image": "assets/images/products/heavy_duty_nylon_wheel.jpg",
+    "highlights": [
+      "Load Capacity: >1000kg"
+    ],
+    "specs": {
+      "Wheel Material": "Nylon",
+      "Load Capacity": ">1000kg",
+      "Purpose": "Trolley or Cart, Furniture, Heavy Industry",
+      "Color": "White",
+      "Wheel Diameter": "100 mm",
+      "Wheel Width": "50 mm",
+      "Bore Diameter": "20 mm",
+      "Bore Length": "60 mm"
+    },
+    "desc": "Designed using the latest technology, ourHeavy Duty Nylon Wheelsare designed to provide you with optimum performance. TheTrolley Wheels Heavy Dutyfeatures ensure that these wheels are durable and long lasting.\u00a0We are counted among the most trusted manufacturers, exporters and suppliers ofHeavy Duty Nylon Wheels.OurTrolley Wheels Heavy Dutyis fabricated by utilizing premium quality raw material and latest technology under the guidance of our experienced professionals.Heavy Duty Wheels Trolleyare designed and manufactured to resist rust and corrosion, providing a long working life with minimal maintenance. We offerHeavy Duty Trolley Wheelsin customized sizes, shapes and weight as per customer requirements."
+  },
+  {
+    "id": "om-prod-32",
+    "name": "Stainless Steel Hand Pallet Truck",
+    "category": "Pallet Trucks",
+    "price": "\u20b9 40,000 / piece",
+    "image": "assets/images/products/stainless_steel_hand_pallet_tr.jpg",
+    "highlights": [
+      "Lifting Cap: 2500 KG",
+      "Fork Length: 1500 mm"
+    ],
+    "specs": {
+      "Minimum Order Quantity": "1 piece",
+      "Model Name/Number": "hand pallet truck",
+      "Usage/Application": "Industrial",
+      "Power Source": "Hand Operated",
+      "Lifting Capacity": "2500 KG",
+      "Product Type": "material handling Equipment",
+      "Wheel Material": "PU, Nylon",
+      "Fork Length": "1500 mm",
+      "Brand": "Om stock easy",
+      "Lift Drive / Actuation": "manual",
+      "Max Lifting Height": "200 mm",
+      "Model No.": "Ss/Hhpt 2.5",
+      "Size": "1150*550*200mm"
+    },
+    "desc": "Industrial equipment Stainless Steel Hand Pallet Truck manufactured and supplied by Om Industrial Solution, Jaipur."
+  },
+  {
+    "id": "om-prod-33",
+    "name": "semi electric High Lift Scissor Pallet Truck",
+    "category": "Pallet Trucks",
+    "price": "\u20b9 1,10,000 / Piece",
+    "image": "assets/images/products/semi_electric_high_lift_scisso.jpg",
+    "highlights": [
+      "Lifting Cap: 1000 kg",
+      "Fork Length: 1500 mm, 1150/1220mm",
+      "Material: MS"
+    ],
+    "specs": {
+      "Minimum Order Quantity": "1 Piece",
+      "Brand": "stock easy",
+      "Usage/Application": "Material Handling",
+      "Power Source": "Battery Operated",
+      "Lifting Capacity": "1000 kg",
+      "Loading Capacity": "1000 kg",
+      "Product Type": "high lift scissor pallet truck",
+      "Max Lifting Height": "200 mm, 300 mm, 100 mm, max-1000mm",
+      "Wheel Material": "PU, Nylon",
+      "Environment": "Non-Corrosive",
+      "Fork Length": "1500 mm, 1150/1220mm",
+      "Fork Width": "540 mm, 685 mm, 520 mm",
+      "AMC/After Sales Service": "Provided",
+      "Material": "MS",
+      "Steering Wheel": "nylone",
+      "Pump": "heavy duty",
+      "Weight": "170 kg",
+      "Load Center": "mid",
+      "Dimensions": "550*1150*1000mm",
+      "Table Color": "yellow",
+      "Number Of Wheels": "4",
+      "Drive Unit": "manual",
+      "Speed": "manual",
+      "Running Mode": "stering",
+      "Warranty": "12 Months",
+      "Size": "550-1150*1000mm",
+      "Lift Drive / Actuation": "battery opreated",
+      "Travel Speed With Without Load": "manual",
+      "Is It Customized": "Customized",
+      "Color": "yellow",
+      "Approvals/Certifications": "yes",
+      "Chassis Plate Mm": "4mm",
+      "Control Type": "handel",
+      "Lift Height Mm": "1000mm",
+      "Operating Height": "90mm",
+      "Overloading Alarm": "NO",
+      "Ground Clearance": "90mm",
+      "Inside Fork Spread": "910mm",
+      "Load Roller Tandem Wheel": "nylone",
+      "Part Number": "1",
+      "Operator Type": "handle",
+      "Service Weight": "1",
+      "Wheel Size Front": "80*70mm",
+      "Wheel Size Rear": "180*50 mm",
+      "I Deal In": "New Only",
+      "Country of Origin": "Made in India"
+    },
+    "desc": "Industrial equipment semi electric High Lift Scissor Pallet Truck manufactured and supplied by Om Industrial Solution, Jaipur."
+  },
+  {
+    "id": "om-prod-34",
+    "name": "Monkey Lift Machine",
+    "category": "Material Handling & Cranes",
+    "price": "\u20b9 4,500 / Piece",
+    "image": "assets/images/products/monkey_lift_machine.jpg",
+    "highlights": [
+      "Cap: 0-1 ton"
+    ],
+    "specs": {
+      "Minimum Order Quantity": "1 Piece",
+      "Chain Length": ">10 (m)",
+      "Product Type": "Multi Function Hoist",
+      "Trolley Option": "With Trolley",
+      "Usage/Application": "Material loading unloading",
+      "Capacity": "0-1 ton",
+      "Lifting Speed": "50mm",
+      "Number Of Chain": "1",
+      "Maximum Lifting": "100fut",
+      "I Deal In": "New Only"
+    },
+    "desc": "Industrial equipment Monkey Lift Machine manufactured and supplied by Om Industrial Solution, Jaipur."
+  },
+  {
+    "id": "om-prod-35",
+    "name": "Hydraulic Floor Cranes",
+    "category": "Material Handling & Cranes",
+    "price": "\u20b9 35,000 / Piece",
+    "image": "assets/images/products/hydraulic_floor_cranes.jpg",
+    "highlights": [
+      "Cap: 0-5 ton",
+      "Max Height: 0-20 feet"
+    ],
+    "specs": {
+      "Minimum Order Quantity": "1 Piece",
+      "Capacity": "0-5 ton",
+      "Color": "Yellow",
+      "Max Height": "0-20 feet",
+      "Power Source": "Hydraulic",
+      "Hoist Travelling Speed": "0-5 m/min",
+      "Gear Box": "yes",
+      "Country of Origin": "Made in India"
+    },
+    "desc": "Industrial equipment Hydraulic Floor Cranes manufactured and supplied by Om Industrial Solution, Jaipur."
+  },
+  {
+    "id": "om-prod-36",
+    "name": "Heavy Duty Double Deck Plastic Pallets",
+    "category": "Industrial Pallets",
+    "price": "\u20b9 2,700 / Piece",
+    "image": "assets/images/products/heavy_duty_double_deck_plastic.jpg",
+    "highlights": [
+      "Cap: 5000KG",
+      "Material: Plastic"
+    ],
+    "specs": {
+      "Minimum Order Quantity": "1 Piece",
+      "Material": "Plastic",
+      "Capacity": "5000KG",
+      "Entry Type": "4-way 2-way",
+      "Storing Product": "Automobile Parts",
+      "Brand": "stock easy",
+      "Usage/Application": "Industrial",
+      "Color": "Blue",
+      "Features": "medium duty pallets",
+      "Shape": "Square",
+      "Size": "1200*1200*170MM",
+      "Static Load": "5000KG",
+      "Weight": "25.40KG",
+      "Model Name/Number": "OP031",
+      "Pallet Top Type": "PLAIN",
+      "Surface Type": "PLAIN",
+      "Runner Type": "3 runner",
+      "Country of Origin": "Made in India"
+    },
+    "desc": "Industrial equipment Heavy Duty Double Deck Plastic Pallets manufactured and supplied by Om Industrial Solution, Jaipur."
+  }
+];
+
+if (typeof window !== 'undefined') {
+  window.CATEGORIES = CATEGORIES;
+  window.PRODUCTS_DATA = PRODUCTS_DATA;
+}
+
+if (typeof module !== 'undefined' && module.exports) {
+  module.exports = { CATEGORIES, PRODUCTS_DATA };
+}
+
